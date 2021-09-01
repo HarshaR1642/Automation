@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [pCloudy Suite]">
+    <parameter name="deviceName" value="OPPO"/>
+    <listeners>
+        <listener class-name="com.keyless.listeners.TestListener"/>
+    </listeners>
+    <test name="Test(failed)">
+        <parameter name="deviceName" value="OPPO"/>
+        <classes>
+            <class name="com.keylessQE.test.SelecthomeTest">
+                <methods>
+                    <include name="beforeClass"/>
+                    <include name="beforeMethod"/>
+                    <include name="selectHome"/>
+                </methods>
+            </class> <!-- com.keylessQE.test.SelecthomeTest -->
+            <class name="com.keylessQE.test.LoginTest">
+                <methods>
+                    <include name="invalidusername"/>
+                    <include name="Succsfull_Login"/>
+                    <include name="invalidPassword"/>
+                </methods>
+            </class> <!-- com.keylessQE.test.LoginTest -->
+        </classes>
+    </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [pCloudy Suite] -->

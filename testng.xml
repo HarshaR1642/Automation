@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+    <test name="Test">
+        <listeners>
+            <listener class-name="com.keyless.listeners.TestListener"/>
+        </listeners>
+
+        <parameter name="platformName" value="iOS"/>
+        <parameter name="udid" value="17EC789A-D752-4395-A9CA-D008A9333C8A"/>
+        <parameter name="deviceName" value="lenovo"/>
+        <parameter name="wdaLocalPort" value="10001"/>
+        <parameter name="webkitDebugProxyPort" value="11000"/>
+
+<!--        <parameter name="platformName" value="Android"/>-->
+<!--        <parameter name="udid" value="HNB50U8X"/>-->
+<!--        <parameter name="deviceName" value="lenovo"/>-->
+<!--        <parameter name="systemPort" value= "10001" />-->
+<!--        <parameter name="chromeDriverPort" value="11000" />-->
+
+        <classes>
+            <class name="com.keylessQE.test.SelecthomeTest"/>
+            <class name="com.keylessQE.test.AccountTab.SettingsTest"/>
+        </classes>
+    </test>
+</suite> 

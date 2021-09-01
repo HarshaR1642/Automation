@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+    <listeners>
+        <listener class-name="com.keyless.listeners.TestListener"/>
+    </listeners>
+    <test thread-count="5" name="Test(failed)" parallel="tests">
+        <parameter name="webkitDebugProxyPort" value="11000"/>
+        <parameter name="platformName" value="iOS"/>
+        <parameter name="udid" value="17EC789A-D752-4395-A9CA-D008A9333C8A"/>
+        <parameter name="deviceName" value="lenovo"/>
+        <parameter name="wdaLocalPort" value="10001"/>
+        <classes>
+            <class name="com.keylessQE.test.Devices.GarageDoorTest">
+                <methods>
+                    <include name="garageDoorTest"/>
+                    <include name="beforeMethod"/>
+                    <include name="beforeClass"/>
+                </methods>
+            </class> <!-- com.keylessQE.test.Devices.GarageDoorTest -->
+        </classes>
+    </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

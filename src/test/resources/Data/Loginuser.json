@@ -1,0 +1,18 @@
+{
+  "invaliduserid": {
+    "username": "rsa@mailinator.coms",
+    "password": "Rakesh88"
+  },
+  "invalidpassword": {
+    "username": "rsa@mailinator.com",
+    "password": "Rakesh888"
+  },
+  "valid_usrId_pswd": {
+    "username": "rsprog@mailinator.com",
+    "password": "Rakesh88"
+  },
+  "valid_usrId_pswd_manager": {
+    "username": "rakesh+manager@rently.com",
+    "password": "Rakesh88"
+  }
+}

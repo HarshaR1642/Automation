@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Login page Error Text -->
+    <string name="Invalid Login">Username or password is incorrect.</string>
+
+    <!-- User Guide pages -->
+    <string name="SkipBtnDescription">You can later check this user guide under the account section.</string>
+
+
+    <string name="firstpage_title">ACCESS HOME LIST</string>
+    <string name="firstpage_title_iOS">title</string>
+    <string name="firstpage_Description">Select home to view and control your devices in the dashboard</string>
+    <string name="firstpage_Description_iOS">description</string>
+
+    <string name="2nd Page Title">UNLOCK STATUS</string>
+    <string name="2nd Page Title_iOS">title</string>
+    <string name="2nd Page Description">Swipe right to lock</string>
+    <string name="2nd Page Description_iOS">description</string>
+
+    <string name="3rd Page Title">LOCK STATUS</string>
+    <string name="3rd Page Title_iOS">title</string>
+    <string name="3rd Page Description">Swipe left to unlock</string>
+    <string name="3rd Page Description_iOS">description</string>
+
+    <string name="4th Page Title">SETTING THERMOSTAT POINTS</string>
+    <string name="4th Page Title_iOS">title</string>
+    <string name="4th Page Description">Slide to set the heating point temperature</string>
+    <string name="4th Page Description_iOS">description</string>
+
+    <string name="5th Page Title">SETTING THERMOSTAT POINTS</string>
+    <string name="5th Page Description">Slide to set the cooling point temperature</string>
+
+    <string name="6th Page Title">THERMOSTAT DETAILS</string>
+    <string name="6th Page Description">Touch to see your thermostat details</string>
+
+    <string name="7th Page Title">ACCESS SCHEDULE</string>
+    <string name="7th Page Description">Touch to access your schedule</string>
+
+    <string name="8th Page Title">ADD SCHEDULE</string>
+    <string name="8th Page Description">Edit or add a new schedule</string>
+
+    <string name="9th Page Title">ACCESS DEVICES</string>
+    <string name="9th Page Description">Touch to control your devices in dashboard</string>
+
+    <string name="Succefull Done">You can later check this user guide under the account section.</string>
+
+
+    <!-- Select Home -->
+    <string name="select Home Title">Select Home</string>
+
+
+    <!-- Chnage Thermostat Window -->
+
+    <string name="Change Thermostat Titltxt">Change Mode</string>
+    <string name="Select Heat WIndow">Select Heating Temperature</string>
+    <string name="Select Cool WIndow">Select Cooling Temperature</string>
+    <string name="Select off WIndow">In off mode, you cannot select any thermostat values.</string>
+
+    <!-- Lock Dashboard status -->
+
+
+    <string name="Locked Status">LOCKED</string>
+    <string name="Unlocked Status">UNLOCKED</string>
+
+
+</resources>
