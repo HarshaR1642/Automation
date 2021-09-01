@@ -89,21 +89,25 @@ public class ChangePassword extends BaseTest {
 
     public void oldPassword(String password) {
 
-        sendKeys(returnLastElement(oldPassword,"oldPassword"), password);
+        sendKeys(returnLastElement(oldPassword,"oldPassword"), password,"Type in old password");
     }
 
     public void newPassword(String password) {
 
-        sendKeys(returnLastElement(newPassword,"newPassword"), password);
+        sendKeys(returnLastElement(newPassword,"newPassword"), password,"Type in new password");
     }
 
     public void confirmPassword(String password) {
 
-        sendKeys(returnLastElement(confirmPassword,"confirmPassword"), password);
+        sendKeys(returnLastElement(confirmPassword,"confirmPassword"), password,"Type in to confirm password");
     }
 
-    public void submit() {
-        click(submit);
+    public void submit() throws InterruptedException {
+        hideKeyboard();
+        Thread.sleep(1500);
+        waitForVisibility(submit);
+        List<MobileElement> elements = getElements("submit", "accessibilityId");
+        click(elements.get(elements.size()-1),"Tap on submit");
     }
 
     public void passwordsMustMatch() {
@@ -144,7 +148,6 @@ public class ChangePassword extends BaseTest {
     public void requiredConfirmPassword(int index) {
 
         SoftAssert sa = new SoftAssert();
-        ;
         sa.assertEquals("• Required", required(index));
         sa.assertAll();
 

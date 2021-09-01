@@ -63,7 +63,7 @@ public class Support extends BaseTest {
 
     public void phoneSupport() throws InterruptedException {
         waitForVisibility(phoneSupport);
-        new TouchAction(getDriver())
+        new TouchAction<>(getDriver())
                 .longPress(ElementOption.element(phoneSupport))
                 .release()
                 .perform();
@@ -72,7 +72,7 @@ public class Support extends BaseTest {
 
     public void emailSupport() throws InterruptedException {
         waitForVisibility(mailSupport);
-        new TouchAction(getDriver())
+        new TouchAction<>(getDriver())
                 .longPress(ElementOption.element(mailSupport))
                 .release()
                 .perform();
