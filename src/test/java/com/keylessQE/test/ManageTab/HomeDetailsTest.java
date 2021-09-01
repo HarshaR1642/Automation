@@ -50,7 +50,7 @@ public class HomeDetailsTest {
 
     }
 
-    @Test(priority = 31)
+    @Test
     public void updateHomeDetails() throws Exception {
 
         homeDetails.clickOnManageTab();

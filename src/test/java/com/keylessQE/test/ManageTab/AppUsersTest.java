@@ -44,25 +44,25 @@ public class AppUsersTest {
 
     }
 
-    @Test(priority = 51)
+    @Test
     public void inviteAppUsersTest1() throws Exception {
         appUsers.clickOnManageTab();
         appUsers.clickOnAppUsers();
         appUsers.inviteUserWithForeverAccess("automation@mailinator.com");
     }
 
-    @Test(priority = 52)
+    @Test
     public void inviteExistingUserTest() throws Exception {
         appUsers.inviteExistingUser("automation@mailinator.com");
     }
 
-    @Test(priority = 53)
+    @Test
     public void deleteAppUsersTest() throws Exception {
         appUsers.checkInvitedMailIdInAppUsers("automation@mailinator.com");
         appUsers.deleteUser("automation@mailinator.com");
     }
 
-    @Test(priority = 54)
+    @Test
     public void inviteAppUsersTest2() throws Exception {
         try {
             appUsers.inviteUser("automation@mailinator.com");

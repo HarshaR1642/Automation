@@ -56,7 +56,7 @@ public class Lock_DashbaordTest extends BaseTest {
     public void afterMethod() {
     }
 
-    @Test(priority = 31)
+    @Test
     public void LockAsset() throws Exception {
         lockDashbrd.LockDevice();
         lockDashbrd.scroll(97, 1301, 625, 1449);
@@ -67,7 +67,7 @@ public class Lock_DashbaordTest extends BaseTest {
 
     }
 
-    @Test(priority = 32)
+    @Test
     public void UnLockAsset() throws Exception {
         lockDashbrd.UnLockDevice();
         lockDashbrd.scroll(679, 1301, 399, 1529);

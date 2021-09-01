@@ -42,7 +42,7 @@ public class MonitoringTest {
 
     }
 
-    @Test(priority = 67)
+    @Test
     public void monitoringTest1() throws Exception {
         Thread.sleep(1000);
         monitoring.navigateToMonitoringCard();
@@ -60,7 +60,7 @@ public class MonitoringTest {
         }
     }
 
-    @Test(priority = 68)
+    @Test
     public void monitoringTest2() throws Exception {
         Thread.sleep(1000);
         String time = null;
@@ -77,7 +77,7 @@ public class MonitoringTest {
         }
     }
 
-    @Test(priority = 69)
+    @Test
     public void monitoringScheduleTest() throws Exception {
         //monitoring.navigateToMonitoringCard();
         monitoring.clickOnScheduleTab();

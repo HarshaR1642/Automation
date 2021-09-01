@@ -44,12 +44,12 @@ public class RegionFilterTest {
 
     }
 
-    @Test(priority = 57)
+    @Test
     public void regionFilterTestForAssets() throws Exception {
         regionFilter.RegionAndMarketFilter(false);
     }
 
-    @Test(priority = 58)
+    @Test
     public void regionFilterTestForFreeDevices() throws Exception {
         regionFilter.RegionAndMarketFilter(true);
     }

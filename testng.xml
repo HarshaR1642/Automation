@@ -19,7 +19,31 @@
 
         <classes>
             <class name="com.keylessQE.test.SelecthomeTest"/>
+            <methods>
+                <include name="selectHome"/>
+            </methods>
             <class name="com.keylessQE.test.AccountTab.SettingsTest"/>
+            <methods>
+                <include name="settings"/>
+            </methods>
+            <class name="com.keylessQE.test.AccountTab.ChangePasswordTest"/>
+            <methods>
+                <include name="changePasswordTest"/>
+            </methods>
+            <class name="com.keylessQE.test.AccountTab.SupportScreenTest"/>
+            <methods>
+                <include name="helpArticleSupport"/>
+                <include name="phoneSupport"/>
+                <include name="emailSupport"/>
+            </methods>
+            <class name="com.keylessQE.test.AccountTab.PrivacyPolicyTest"/>
+            <methods>
+                <include name="privacyPolicyTest"/>
+            </methods>
+            <class name="com.keylessQE.test.AccountTab.LogoutTest"/>
+            <methods>
+                <include name="logoutTest"/>
+            </methods>
         </classes>
     </test>
 </suite> 

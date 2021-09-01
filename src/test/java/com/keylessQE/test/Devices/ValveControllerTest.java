@@ -1,5 +1,4 @@
 package com.keylessQE.test.Devices;
-
 import com.keyless.Devices.ValveControllerDetail;
 import org.json.JSONObject;
 import org.json.JSONTokener;
@@ -44,7 +43,7 @@ public class ValveControllerTest {
 
     }
 
-    @Test(priority = 47)
+    @Test
     public void valveControllerTest1() throws Exception {
         Thread.sleep(1000);
         valveControllerDetail.navigateToValveController();
@@ -62,7 +61,7 @@ public class ValveControllerTest {
         }
     }
 
-    @Test(priority = 48)
+    @Test
     public void valveControllerTest2() throws Exception {
         Thread.sleep(1000);
         String time = null;

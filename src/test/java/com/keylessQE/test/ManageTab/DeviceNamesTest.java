@@ -44,7 +44,7 @@ public class DeviceNamesTest {
 
     }
 
-    @Test(priority = 50)
+    @Test
     public void deviceNamesTest() throws Exception {
         deviceNames.clickOnManageTab();
         deviceNames.clickOnDeviceNames();

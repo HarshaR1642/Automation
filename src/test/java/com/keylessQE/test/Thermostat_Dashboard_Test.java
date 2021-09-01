@@ -58,7 +58,7 @@ public class Thermostat_Dashboard_Test extends BaseTest {
     public void afterMethod() {
     }
 
-    @Test(priority = 18)
+    @Test
     public void AutoModeScreenText() throws Exception {
         loginpage = new Login_Keyless();
         themostat_dash = loginpage.taponLoginAsResident3();
@@ -77,7 +77,7 @@ public class Thermostat_Dashboard_Test extends BaseTest {
     }
 
 
-    @Test(priority = 19)
+    @Test
     public void ChngeAutoModeBtn() throws Exception {
         Thread.sleep(2000);
         themostat_dash.tapDshBrdModeBtn();
@@ -91,7 +91,7 @@ public class Thermostat_Dashboard_Test extends BaseTest {
         Thread.sleep(4000);
     }
 
-    @Test(priority = 20)
+    @Test
     public void ChngeHeatModeBtn() throws Exception {
         Thread.sleep(4000);
         themostat_dash.tapDshBrdModeBtn();
@@ -101,7 +101,7 @@ public class Thermostat_Dashboard_Test extends BaseTest {
         Thread.sleep(4000);
     }
 
-    @Test(priority = 21)
+    @Test
     public void ChngeCoolModeBtn() throws Exception {
         Thread.sleep(3000);
         themostat_dash.tapDshBrdModeBtn();
@@ -112,7 +112,7 @@ public class Thermostat_Dashboard_Test extends BaseTest {
         Thread.sleep(3000);
     }
 
-    @Test(priority = 22)
+    @Test
     public void OffModeBtn() throws Exception {
         Thread.sleep(3000);
         themostat_dash.tapDshBrdModeBtn();

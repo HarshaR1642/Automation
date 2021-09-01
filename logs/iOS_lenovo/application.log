@@ -3,3 +3,58 @@
 [logs/iOS_lenovo INFO ] 2021-09-01 10:47:26.430 BaseTest:368 - Enter Password :Rakesh88
 [logs/iOS_lenovo INFO ] 2021-09-01 10:47:39.786 BaseTest:295 - Skip the User Guide
 [logs/iOS_lenovo INFO ] 2021-09-01 10:47:45.219 BaseTest:295 - Skip the User Guide
+[logs/iOS_lenovo INFO ] 2021-09-01 11:24:51.344 BaseTest:295 - Select Login as Resident Button
+[logs/iOS_lenovo INFO ] 2021-09-01 11:24:55.919 BaseTest:368 - Enter User Id :rsprog@mailinator.com
+[logs/iOS_lenovo INFO ] 2021-09-01 11:25:02.156 BaseTest:368 - Enter Password :Rakesh88
+[logs/iOS_lenovo INFO ] 2021-09-01 11:25:13.585 BaseTest:295 - Skip the User Guide
+[logs/iOS_lenovo INFO ] 2021-09-01 11:25:17.448 BaseTest:295 - Skip the User Guide
+[logs/iOS_lenovo INFO ] 2021-09-01 11:25:33.144 BaseTest:295 - Tap on Account Tab
+[logs/iOS_lenovo INFO ] 2021-09-01 11:25:38.220 BaseTest:295 - Tap on Settings
+[logs/iOS_lenovo INFO ] 2021-09-01 11:25:43.353 BaseTest:389 - State before tappingemailAlerts
+[logs/iOS_lenovo INFO ] 2021-09-01 11:25:48.813 BaseTest:389 - getting state after tapping emailAlerts
+[logs/iOS_lenovo INFO ] 2021-09-01 11:25:51.933 BaseTest:389 - State before tappingpushNotification
+[logs/iOS_lenovo INFO ] 2021-09-01 11:25:56.372 BaseTest:389 - getting state after tapping pushNotification
+[logs/iOS_lenovo INFO ] 2021-09-01 11:25:59.350 BaseTest:389 - State before tappingnotifyAllUnlock
+[logs/iOS_lenovo INFO ] 2021-09-01 11:26:04.834 BaseTest:389 - getting state after tapping notifyAllUnlock
+[logs/iOS_lenovo INFO ] 2021-09-01 11:26:07.673 BaseTest:389 - State before tappingroutines
+[logs/iOS_lenovo INFO ] 2021-09-01 11:26:11.944 BaseTest:389 - getting state after tapping routines
+[logs/iOS_lenovo INFO ] 2021-09-01 11:26:14.632 BaseTest:389 - State before tappingnotifyContactSensor
+[logs/iOS_lenovo INFO ] 2021-09-01 11:26:19.533 BaseTest:389 - getting state after tapping notifyContactSensor
+[logs/iOS_lenovo INFO ] 2021-09-01 11:26:22.552 BaseTest:295 - Navigate back to Account Tab
+[logs/iOS_lenovo INFO ] 2021-09-01 11:26:26.364 BaseTest:295 - Tap on the Account Tab
+[logs/iOS_lenovo INFO ] 2021-09-01 11:26:27.845 BaseTest:295 - Tap on the support
+[logs/iOS_lenovo INFO ] 2021-09-01 11:26:30.064 BaseTest:295 - Click on the support
+[logs/iOS_lenovo INFO ] 2021-09-01 11:40:24.499 BaseTest:295 - Select Login as Resident Button
+[logs/iOS_lenovo INFO ] 2021-09-01 11:40:29.137 BaseTest:368 - Enter User Id :rsprog@mailinator.com
+[logs/iOS_lenovo INFO ] 2021-09-01 11:40:34.497 BaseTest:368 - Enter Password :Rakesh88
+[logs/iOS_lenovo INFO ] 2021-09-01 11:40:46.493 BaseTest:295 - Skip the User Guide
+[logs/iOS_lenovo INFO ] 2021-09-01 11:40:49.644 BaseTest:295 - Skip the User Guide
+[logs/iOS_lenovo INFO ] 2021-09-01 11:41:04.371 BaseTest:295 - Tap on Account Tab
+[logs/iOS_lenovo INFO ] 2021-09-01 11:41:09.633 BaseTest:295 - Tap on Settings
+[logs/iOS_lenovo INFO ] 2021-09-01 11:41:15.539 BaseTest:389 - State before tappingemailAlerts
+[logs/iOS_lenovo INFO ] 2021-09-01 11:41:21.315 BaseTest:389 - getting state after tapping emailAlerts
+[logs/iOS_lenovo INFO ] 2021-09-01 11:41:24.304 BaseTest:389 - State before tappingpushNotification
+[logs/iOS_lenovo INFO ] 2021-09-01 11:41:28.474 BaseTest:389 - getting state after tapping pushNotification
+[logs/iOS_lenovo INFO ] 2021-09-01 11:41:31.296 BaseTest:389 - State before tappingnotifyAllUnlock
+[logs/iOS_lenovo INFO ] 2021-09-01 11:41:36.543 BaseTest:389 - getting state after tapping notifyAllUnlock
+[logs/iOS_lenovo INFO ] 2021-09-01 11:41:39.574 BaseTest:389 - State before tappingroutines
+[logs/iOS_lenovo INFO ] 2021-09-01 11:41:43.705 BaseTest:389 - getting state after tapping routines
+[logs/iOS_lenovo INFO ] 2021-09-01 11:41:46.337 BaseTest:389 - State before tappingnotifyContactSensor
+[logs/iOS_lenovo INFO ] 2021-09-01 11:41:51.537 BaseTest:389 - getting state after tapping notifyContactSensor
+[logs/iOS_lenovo INFO ] 2021-09-01 11:41:54.584 BaseTest:295 - Navigate back to Account Tab
+[logs/iOS_lenovo INFO ] 2021-09-01 11:41:58.459 BaseTest:295 - Tap on the Account Tab
+[logs/iOS_lenovo INFO ] 2021-09-01 11:42:00.032 BaseTest:295 - Tap on the ChangePassword
+[logs/iOS_lenovo INFO ] 2021-09-01 11:42:30.865 BaseTest:295 - Tap on Yes
+[logs/iOS_lenovo INFO ] 2021-09-01 11:42:32.788 BaseTest:295 - Navigate back to Account Tab
+[logs/iOS_lenovo INFO ] 2021-09-01 11:42:34.536 BaseTest:295 - Tap on the Account Tab
+[logs/iOS_lenovo INFO ] 2021-09-01 11:42:35.989 BaseTest:295 - Tap on the PrivacyPolicy
+[logs/iOS_lenovo INFO ] 2021-09-01 11:42:59.504 BaseTest:295 - Navigate back to Account Tab
+[logs/iOS_lenovo INFO ] 2021-09-01 11:43:11.897 BaseTest:295 - Tap on the Account Tab
+[logs/iOS_lenovo INFO ] 2021-09-01 11:43:13.640 BaseTest:295 - Tap on the support
+[logs/iOS_lenovo INFO ] 2021-09-01 11:43:16.042 BaseTest:295 - Click on the support
+[logs/iOS_lenovo INFO ] 2021-09-01 11:43:47.889 BaseTest:295 - Navigate back to Account Tab
+[logs/iOS_lenovo INFO ] 2021-09-01 11:43:49.572 BaseTest:295 - Tap on the Account Tab
+[logs/iOS_lenovo INFO ] 2021-09-01 11:43:50.713 BaseTest:295 - Tap on the Logout
+[logs/iOS_lenovo INFO ] 2021-09-01 11:43:52.672 BaseTest:389 - Get the Alert TitleLogout
+[logs/iOS_lenovo INFO ] 2021-09-01 11:43:53.619 BaseTest:389 - Get the Alert MessageDo you want to logout?
+[logs/iOS_lenovo INFO ] 2021-09-01 11:43:54.142 BaseTest:295 - Tap on Yes

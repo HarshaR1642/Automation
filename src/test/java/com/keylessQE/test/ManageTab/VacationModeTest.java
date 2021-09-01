@@ -43,7 +43,7 @@ public class VacationModeTest {
 
     }
 
-    @Test(priority = 51)
+    @Test
     public void vacationModeTest() throws Exception {
         vacationMode.clickOnManageTab();
         vacationMode.clickOnVacationMode();

@@ -57,14 +57,14 @@ public class Thermostat_detailPage_Test extends BaseTest {
     public void afterMethod() {
     }
 
-    @Test(priority = 23)
+    @Test
     public void selectThermostat() throws Exception {
 
         thermDetail.tapDshBrdModeBtn();
 
     }
 
-    @Test(priority = 24)
+    @Test
     public void ChngModeAuto() throws Exception {
         thermDetail.tapOperateModeBtn();
         thermDetail.tapHeatModeBtn();
@@ -72,14 +72,14 @@ public class Thermostat_detailPage_Test extends BaseTest {
         Thread.sleep(5000);
     }
 
-    @Test(priority = 25)
+    @Test
     public void ChngFanModeAuto() throws Exception {
         thermDetail.FanMode();
         thermDetail.FanModeAuto();
         Thread.sleep(5000);
     }
 
-    @Test(priority = 26)
+    @Test
     public void ChngFanModeON() throws Exception {
         thermDetail.FanMode();
         thermDetail.FanModeOn();

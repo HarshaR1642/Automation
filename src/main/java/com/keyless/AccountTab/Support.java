@@ -80,7 +80,7 @@ public class Support extends BaseTest {
     }
 
     public void navigateBack() {
-            getDriver().navigate().back();
+        click(homeBack, "Navigate back to Account Tab");
     }
 
 

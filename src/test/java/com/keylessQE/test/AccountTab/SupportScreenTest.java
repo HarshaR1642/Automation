@@ -44,19 +44,19 @@ public class SupportScreenTest {
 
     }
 
-    @Test(priority = 24)
+    @Test
     public void helpArticleSupport() throws Exception {
         support.tapOnAccountTab();
         support.tapOnSupport();
         support.helpArticleSupport();
     }
 
-    @Test(priority = 25)
+    @Test
     public void phoneSupport() throws Exception {
         support.phoneSupport();
     }
 
-    @Test(priority = 26)
+    @Test
     public void emailSupport() throws Exception {
         support.emailSupport();
         support.navigateBack();

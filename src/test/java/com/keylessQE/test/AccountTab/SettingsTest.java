@@ -52,7 +52,7 @@ public class SettingsTest extends BaseTest {
     }
 
 
-    @Test(priority = 18)
+    @Test
     public void settings() throws Exception {
 
         settings.tapOnAccountTab();

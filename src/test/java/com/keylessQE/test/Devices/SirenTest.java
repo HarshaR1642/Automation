@@ -44,7 +44,7 @@ public class SirenTest {
 
     }
 
-    @Test(priority = 49)
+    @Test
     public void SirenTest1() throws Exception {
         Thread.sleep(1000);
         siren.navigateToSirenDevice();
@@ -63,7 +63,7 @@ public class SirenTest {
         }
     }
 
-    @Test(priority = 50)
+    @Test
     public void SirenTest2() throws Exception {
         Thread.sleep(1000);
         String time = null;

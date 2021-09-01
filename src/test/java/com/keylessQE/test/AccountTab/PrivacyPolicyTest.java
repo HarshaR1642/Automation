@@ -44,7 +44,7 @@ public class PrivacyPolicyTest {
 
     }
 
-    @Test(priority = 27)
+    @Test
     public void privacyPolicyTest() throws Exception {
 
         privacyPolicy.tapOnAccountTab();

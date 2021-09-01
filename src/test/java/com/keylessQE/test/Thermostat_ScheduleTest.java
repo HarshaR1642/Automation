@@ -61,26 +61,26 @@ public class Thermostat_ScheduleTest {
 
     }
 
-    @Test(priority = 27)
+    @Test
     public void diableScheduler() throws Exception {
         thermShedlr.SlctScheduler();
         thermShedlr.disableScheduler();
 
     }
 
-    @Test(priority = 28)
+    @Test
     public void enableScheduler() throws Exception {
         thermShedlr.enableScheduler();
         Thread.sleep(3000);
     }
 
-    @Test(priority = 29)
+    @Test
     public void addEntry() throws Exception {
         thermShedlr.DtailoperatingMode();
         thermShedlr.AddNewSchdlr();
     }
 
-    @Test(priority = 30)
+    @Test
     public void chngeMode() throws Exception {
         thermShedlr.chngeScedlur();
         thermShedlr.chngeToCool();

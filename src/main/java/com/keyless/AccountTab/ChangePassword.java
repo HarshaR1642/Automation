@@ -221,7 +221,7 @@ public class ChangePassword extends BaseTest {
     public void tapOnYes() {
 
         click(alert, "Tap on Yes");
-        click(homeBack);
+        click(homeBack, "Navigate back to Account Tab");
     }
 
 

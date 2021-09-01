@@ -44,7 +44,7 @@ public class ChangePasswordTest {
 
     }
 
-    @Test(priority = 101)
+    @Test
     public void changePasswordTest() throws Exception {
         changePassword.tapOnAccountTab();
         changePassword.tapOnChangePassword();

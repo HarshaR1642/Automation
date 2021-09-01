@@ -44,7 +44,7 @@ public class LockDetailTest {
 
     }
 
-    @Test(priority = 36)
+    @Test
     public void lockUnlock() throws Exception {
         lockDtlpge.tapondtlpgeBtn();
         String time = null;

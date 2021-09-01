@@ -71,7 +71,7 @@ public class LoginTest extends BaseTest {
 //	  
 //  }
 
-    @Test(priority = 56)
+    @Test
     public void managerLogin() throws Exception {
         loginpage = new Login_Keyless();
         loginpage.taponLoginAsManager();

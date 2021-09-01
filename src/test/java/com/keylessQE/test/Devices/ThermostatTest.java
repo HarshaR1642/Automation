@@ -53,44 +53,44 @@ public class ThermostatTest {
     }
 
 
-//    @Test(priority = 40)
-//    public void ThermostatTest1() throws Exception {
-//        thermostat.navigateToThermostatDevice();
-//        thermostat.changeOperatingModeAutomatically();
-//        thermostat.changeTemperature();
-//        String time = thermostat.clickSaveButton();
-//        thermostat.checkActivity(time);
-//    }
-//
-//    @Test(priority = 41)
-//    public void ThermostatTest2() throws Exception {
-//        thermostat.changeOperatingModeAutomatically();
-//        thermostat.changeTemperature();
-//        String time = thermostat.clickSaveButton();
-//        thermostat.checkActivity(time);
-//    }
-//	
-//	@Test(priority=42)
-//	public void ThermostatTest3() throws Exception
-//	{
-//		thermostat.changeOperatingModeAutomatically();
-//		thermostat.changeTemperature();
-//		String time = thermostat.clickSaveButton();
-//		thermostat.checkActivity(time);
-//	}
-//	
-//	@Test(priority=43)
-//	public void ThermostatTest4() throws Exception
-//	{
-//		thermostat.changeOperatingModeAutomatically();
-//		thermostat.changeTemperature();
-//		String time = thermostat.clickSaveButton();
-//		thermostat.checkActivity(time);
-//		thermostat.clickOnFanModeButton();
-//		thermostat.changeFanMode();
-//	}
+    @Test
+    public void ThermostatTest1() throws Exception {
+        thermostat.navigateToThermostatDevice();
+        thermostat.changeOperatingModeAutomatically();
+        thermostat.changeTemperature();
+        String time = thermostat.clickSaveButton();
+        thermostat.checkActivity(time);
+    }
 
-    @Test(priority = 44)
+    @Test
+    public void ThermostatTest2() throws Exception {
+        thermostat.changeOperatingModeAutomatically();
+        thermostat.changeTemperature();
+        String time = thermostat.clickSaveButton();
+        thermostat.checkActivity(time);
+    }
+
+    @Test
+	public void ThermostatTest3() throws Exception
+	{
+		thermostat.changeOperatingModeAutomatically();
+		thermostat.changeTemperature();
+		String time = thermostat.clickSaveButton();
+		thermostat.checkActivity(time);
+	}
+
+    @Test
+	public void ThermostatTest4() throws Exception
+	{
+		thermostat.changeOperatingModeAutomatically();
+		thermostat.changeTemperature();
+		String time = thermostat.clickSaveButton();
+		thermostat.checkActivity(time);
+		thermostat.clickOnFanModeButton();
+		thermostat.changeFanMode();
+	}
+
+    @Test
     public void ThermostatScheduleTest() throws Exception {
         thermostat.navigateToThermostatDevice();
         thermostatSchedule.clickOnThermostatScheduleTab();

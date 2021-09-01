@@ -43,7 +43,7 @@ public class LockTest {
 
     }
 
-    @Test(priority = 45)
+    @Test
     public void lockTest1() throws Exception {
         Thread.sleep(1000);
         lockDetail.navigateToLock();
@@ -62,7 +62,7 @@ public class LockTest {
     }
 
 
-    @Test(priority = 46)
+    @Test
     public void lockTest2() throws Exception {
         Thread.sleep(1000);
         String time = null;

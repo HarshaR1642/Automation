@@ -44,7 +44,7 @@ public class ActivityTest {
 
     }
 
-    @Test(priority = 51)
+    @Test
     public void activityTest() throws Exception {
         try {
             Thread.sleep(1000);

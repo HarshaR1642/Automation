@@ -44,7 +44,7 @@ public class GarageDoorTest {
 
     }
 
-    @Test(priority = 100)
+    @Test
     public void garageDoorTest() throws Exception {
         Thread.sleep(1000);
         garageDoorDetail.navigateToGarageDoor();

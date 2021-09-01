@@ -79,7 +79,7 @@ public class SelecthomeTest extends BaseTest {
     //		  sa.assertAll();
     //	  }
     //
-    @Test(priority = 10)
+    @Test
     public void selectHome() throws Exception {
         loginpage = new Login_Keyless();
         selectHome = loginpage.taponLoginAsResident1();

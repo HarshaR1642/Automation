@@ -44,7 +44,7 @@ public class LogoutTest {
 
     }
 
-    @Test(priority = 55)
+    @Test
     public void logoutTest() throws Exception {
         logout.tapOnAccountTab();
         logout.tapOnLogout();
