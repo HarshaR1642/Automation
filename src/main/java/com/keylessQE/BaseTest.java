@@ -194,7 +194,7 @@ public class BaseTest {
 
 
                     //URL appUrl = getClass().getClassLoader().getResource(props.getProperty("androidAppLocation"));
-                    desiredCapabilities.setCapability("app", "/Users/rentlycoimbatore/Desktop/prodbuild/app-flavorDefault-release.apk");
+                    desiredCapabilities.setCapability("app", "/Users/rentlycoimbatore/Desktop/swift/app-flavorDefault-release.apk");
 
                     //desiredCapabilities.setCapability("app","/Users/rentlycoimbatore/Desktop/bluebuild/app-flavorDefault-release.apk");
 

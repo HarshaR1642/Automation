@@ -2,6 +2,7 @@ package com.keylessQE.test;
 
 import com.keyless.AccountTab.UserGuide;
 import com.keyless.pages.Login_Keyless;
+import com.keyless.pages.Select_Home;
 import com.keyless.utils.testUtils;
 import com.keylessQE.BaseTest;
 import io.appium.java_client.AppiumDriver;
@@ -20,6 +21,7 @@ public class LoginTest extends BaseTest {
 
     static AppiumDriver driver;
     Login_Keyless loginpage;
+    Select_Home select_home;
     UserGuide UGpage;
     DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
 
@@ -49,6 +51,7 @@ public class LoginTest extends BaseTest {
     @BeforeMethod
     public void beforeMethod(Method m) {
         loginpage = new Login_Keyless();
+        select_home = new Select_Home();
         System.out.println("\n" + "****** starting test:" + m.getName() + "******" + "\n");
 
 
@@ -77,6 +80,7 @@ public class LoginTest extends BaseTest {
         loginpage.taponLoginAsManager();
         loginpage.login_1(loginusers.getJSONObject("valid_usrId_pswd_manager").getString("username"),
                 loginusers.getJSONObject("valid_usrId_pswd_manager").getString("password"));
+        select_home.taponManagerHome();
 
     }
 

@@ -5,45 +5,49 @@
             <listener class-name="com.keyless.listeners.TestListener"/>
         </listeners>
 
-        <parameter name="platformName" value="iOS"/>
-        <parameter name="udid" value="17EC789A-D752-4395-A9CA-D008A9333C8A"/>
-        <parameter name="deviceName" value="lenovo"/>
-        <parameter name="wdaLocalPort" value="10001"/>
-        <parameter name="webkitDebugProxyPort" value="11000"/>
-
-<!--        <parameter name="platformName" value="Android"/>-->
-<!--        <parameter name="udid" value="HNB50U8X"/>-->
+<!--        <parameter name="platformName" value="iOS"/>-->
+<!--        <parameter name="udid" value="17EC789A-D752-4395-A9CA-D008A9333C8A"/>-->
 <!--        <parameter name="deviceName" value="lenovo"/>-->
-<!--        <parameter name="systemPort" value= "10001" />-->
-<!--        <parameter name="chromeDriverPort" value="11000" />-->
+<!--        <parameter name="wdaLocalPort" value="10001"/>-->
+<!--        <parameter name="webkitDebugProxyPort" value="11000"/>-->
+
+        <parameter name="platformName" value="Android"/>
+        <parameter name="udid" value="761dc408"/>
+        <parameter name="deviceName" value="realme"/>
+        <parameter name="systemPort" value= "10001" />
+        <parameter name="chromeDriverPort" value="11000" />
 
         <classes>
-            <class name="com.keylessQE.test.SelecthomeTest"/>
+            <class name="com.keylessQE.test.LoginTest"/>
             <methods>
-                <include name="selectHome"/>
+                <include name="managerLogin"/>
             </methods>
-            <class name="com.keylessQE.test.AccountTab.SettingsTest"/>
-            <methods>
-                <include name="settings"/>
-            </methods>
-            <class name="com.keylessQE.test.AccountTab.ChangePasswordTest"/>
-            <methods>
-                <include name="changePasswordTest"/>
-            </methods>
-            <class name="com.keylessQE.test.AccountTab.SupportScreenTest"/>
-            <methods>
-                <include name="helpArticleSupport"/>
-                <include name="phoneSupport"/>
-                <include name="emailSupport"/>
-            </methods>
-            <class name="com.keylessQE.test.AccountTab.PrivacyPolicyTest"/>
-            <methods>
-                <include name="privacyPolicyTest"/>
-            </methods>
-            <class name="com.keylessQE.test.AccountTab.LogoutTest"/>
-            <methods>
-                <include name="logoutTest"/>
-            </methods>
+                <class name = "com.keylessQE.test.ManageTab.ReservationsTest"/>
+                <methods>
+                    <include name="reservationsTest"/>
+                </methods>
+<!--            <class name="com.keylessQE.test.AccountTab.SettingsTest"/>-->
+<!--            <methods>-->
+<!--                <include name="settings"/>-->
+<!--            </methods>-->
+<!--            <class name="com.keylessQE.test.AccountTab.ChangePasswordTest"/>-->
+<!--            <methods>-->
+<!--                <include name="changePasswordTest"/>-->
+<!--            </methods>-->
+<!--            <class name="com.keylessQE.test.AccountTab.SupportScreenTest"/>-->
+<!--            <methods>-->
+<!--                <include name="helpArticleSupport"/>-->
+<!--                <include name="phoneSupport"/>-->
+<!--                <include name="emailSupport"/>-->
+<!--            </methods>-->
+<!--            <class name="com.keylessQE.test.AccountTab.PrivacyPolicyTest"/>-->
+<!--            <methods>-->
+<!--                <include name="privacyPolicyTest"/>-->
+<!--            </methods>-->
+<!--            <class name="com.keylessQE.test.AccountTab.LogoutTest"/>-->
+<!--            <methods>-->
+<!--                <include name="logoutTest"/>-->
+<!--            </methods>-->
         </classes>
     </test>
 </suite> 

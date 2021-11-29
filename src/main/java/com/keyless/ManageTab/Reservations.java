@@ -1,8 +1,12 @@
 package com.keyless.ManageTab;
 import com.keylessQE.BaseTest;
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.PerformsTouchActions;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
+import io.appium.java_client.touch.offset.ElementOption;
+
 import java.util.List;
 
 public class Reservations extends BaseTest {
@@ -59,22 +63,45 @@ public class Reservations extends BaseTest {
     @iOSXCUITFindBy(accessibility = "reservationId")
     private MobileElement reservationId;
 
+    @AndroidFindBy(accessibility = "reservationList")
+    @iOSXCUITFindBy(accessibility = "reservationList")
+    private MobileElement reservationList;
+
+    @AndroidFindBy(accessibility = "deleteReservation")
+    @iOSXCUITFindBy(accessibility = "deleteReservation")
+    private MobileElement deleteReservation;
+
+    @AndroidFindBy(accessibility = "editReservation")
+    @iOSXCUITFindBy(accessibility = "editReservation")
+    private MobileElement editReservation;
+
     @AndroidFindBy(accessibility = "save")
     @iOSXCUITFindBy(accessibility = "save")
     private MobileElement save;
+
+    @AndroidFindBy(accessibility = "Home, back")
+    @iOSXCUITFindBy(accessibility = "Home, back")
+    private MobileElement homeBack;
 
     @AndroidFindBy(id = "android:id/button1")
     @iOSXCUITFindBy(id = "Yes")
     private MobileElement ok;
 
+    private final String staticTextClassName = "android.widget.TextView";
+
+    private  final String reservationListNamePath = "//android.view.ViewGroup[@content-desc=\"reservationList\"]/android.widget.TextView";
 
     private final String checkBoxPath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup";
 
-
-
-
     public void clickOnManageTab() {
         click(manageTab, "Tap on the Manage Tab");
+    }
+
+    public void tap(MobileElement element) {
+        new TouchAction<>((PerformsTouchActions) getDriver())
+                .press(ElementOption.element(element))
+                .release()
+                .perform();
     }
 
     public void selectAsset(int index) {
@@ -97,8 +124,9 @@ public class Reservations extends BaseTest {
     }
 
     public void navigateBack() {
-        getDriver().navigate().back();
+        click(homeBack, "Navigate back to Account Tab");
     }
+
 
     public boolean selectProperty() {
         try{
@@ -135,16 +163,45 @@ public class Reservations extends BaseTest {
         click(fromTime);
         click(ok);
         click(ok);
+        scroll(500, 600, 500, 100);
         click(toTime);
         click(ok);
         click(ok);
-        sendKeys(reservationId,"1729");
+        int randomNumber = (int)(Math.random()*9000)+1000;
+        sendKeys(reservationId,""+randomNumber);
         hideKeyboard();
         click(save);
         click(ok);
-
-
     }
 
+    public void clickOnText(String text){
+        List<MobileElement> texts = getElements(staticTextClassName, "className");
+        for(MobileElement mobileElement : texts){
+            String tabName = getText(mobileElement, "");
+            if(tabName.equals(text)){
+                tap(mobileElement);
+                break;
+            }
+        }
+    }
 
+    public void editReservation(String name) throws InterruptedException {
+
+        Thread.sleep(1000);
+        clickOnText("Upcoming");
+        waitForVisibility(reservationList);
+        Thread.sleep(1000);
+        clickOnText(name);
+        click(editReservation);
+        String newName = name.concat("edit");
+        sendKeys(reservationName,newName);
+        scroll(500, 600, 500, 100);
+        click(save);
+        click(ok);
+        Thread.sleep(1000);
+        clickOnText(newName);
+        click(deleteReservation);
+        click(ok);
+        click(ok);
+    }
 }

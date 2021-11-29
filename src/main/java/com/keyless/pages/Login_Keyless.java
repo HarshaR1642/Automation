@@ -58,9 +58,10 @@ public class Login_Keyless extends BaseTest {
 
     }
 
-    public void taponLoginAsManager() {
+    public Select_Home taponLoginAsManager() {
         System.out.println("Select Login as Resident Button");
         click(LoginManager, "Press Login as resident Button");
+        return new Select_Home();
     }
 
 
